@@ -1,0 +1,143 @@
+/* Reset CSS */
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* Body Font Family */
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: white;
+}
+
+
+/* Nav */
+nav {
+    padding: 0.8rem 0.8rem 0.8rem 5rem;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid lightgray;
+    list-style-type: none;
+
+}
+
+nav .nav,
+nav .nav-logo {
+    margin: 0.5rem;
+    display: inline;
+}
+
+.right-nav {
+    float: right;
+}
+
+/* Nav Button */
+.tuitt-button {
+    background-color: #c2195b;
+    font-size: 1.2rem;
+    color: white;
+    font-weight: 300;
+    border-radius: 25px;
+    border-color: transparent;
+    text-align: center;
+    padding-bottom: .4em;
+    padding-left: .75em;
+    padding-right: .75em;
+    padding-top: .4em;
+
+}
+
+/* Landing Page */
+#bg-image {
+    background: rgba(0, 0, 0, .4) url("https://d3ojsfl21hfxhc.cloudfront.net/assets/zuitt/programdetails2_w.jpg");
+    background-size: cover;
+    height: 41vh;
+    background-position: center;
+    text-align: end;
+    background-blend-mode: darken;
+}
+
+.container {
+    max-width: 25%;
+    float: right;
+    color: white;
+    margin-right: 5rem;
+}
+
+.container .subtitle {
+    font-size: .9rem;
+    font-weight: 400;
+    margin-top: 1rem;
+}
+
+.apply-button {
+    background-color: #c2195b;
+    font-size: 1rem;
+    color: white;
+    font-weight: 300;
+    border-radius: 25px;
+    border-color: transparent;
+    text-align: center;
+    padding-bottom: .4em;
+    padding-left: .75em;
+    padding-right: .75em;
+    padding-top: .4em;
+    margin-top: 1.5rem;
+}
+
+/* intro Section */
+.title-1 {
+    font-family: 'Zilla Slab';
+}
+
+.title-2 {
+    font-family: 'Zilla Slab';
+    padding: 2rem 10% 3rem 10%;
+    text-align: center;
+}
+
+.intro-description {
+    margin-bottom: 1rem;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+/* pre-footer */
+.pre-footer {
+    background-color: #f7fbfb;
+    text-align: center;
+}
+
+.prefooter-description {
+    margin-bottom: 1rem;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.book-button {
+    background-color: #336589;
+    font-size: 1rem;
+    color: white;
+    font-weight: 300;
+    border-radius: 25px;
+    border-color: transparent;
+    text-align: center;
+    padding-bottom: .4em;
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+    padding-top: .4em;
+    margin-top: 1.5rem;
+
+}
+
+/* footer */
+footer {
+    text-align: center;
+    margin-top: 7rem;
+    margin-bottom: 3rem;
+}
+
+footer span {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
